@@ -3,6 +3,17 @@ Trabalho focado no entendimento de manipulação de imagens.
 
 ## Convolução e Efeitos
 ### Código feito apenas com Numpy
+📌 Resumo das Funcionalidades
+
+- Utiliza o conceito de convolução para aplicar um kernel sobre uma imagem, calculando os pixels e fazendo o deslocamento do kernel
+- Carrega uma imagem RGB.
+- Define um kernel de convolução (detecção de bordas).
+- Implementa convolução manual (sem usar OpenCV ou funções prontas).
+- Aplica a convolução em cada canal RGB separadamente.
+- Reconstrói a imagem filtrada.
+- Mede e mostra o tempo de execução.
+- Exibe o resultado em uma janela gráfica.
+
 ```
 import numpy as np
 from PIL import Image
@@ -65,17 +76,6 @@ plt.axis('off')
 plt.show()
 
 ```
-📌 Resumo das Funcionalidades
-
-- Utiliza o conceito de convolução para aplicar um kernel sobre uma imagem, calculando os pixels e fazendo o deslocamento do kernel
-- Carrega uma imagem RGB.
-- Define um kernel de convolução (detecção de bordas).
-- Implementa convolução manual (sem usar OpenCV ou funções prontas).
-- Aplica a convolução em cada canal RGB separadamente.
-- Reconstrói a imagem filtrada.
-- Mede e mostra o tempo de execução.
-- Exibe o resultado em uma janela gráfica.
-
 ### Código feito com OpenCV
 ```
 import cv2
@@ -106,6 +106,7 @@ plt.show()
 ```
 
 ## Detecção de Componentes
+📌 Resumo das Funcionalidades:
 
 Ambos os códigos, tanto para de 5 ou 7 frutas, são bem parecidos, eu usei a Matriz de Cruz como foi ensinado em aula, é melhor por que ele pega uma fração menor, para ter melhor precisão.
 
