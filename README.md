@@ -65,6 +65,17 @@ plt.axis('off')
 plt.show()
 
 ```
+📌 Resumo das Funcionalidades
+
+- Utiliza o conceito de convolução para aplicar um kernel sobre uma imagem, calculando os pixels e fazendo o deslocamento do kernel
+- Carrega uma imagem RGB.
+- Define um kernel de convolução (detecção de bordas).
+- Implementa convolução manual (sem usar OpenCV ou funções prontas).
+- Aplica a convolução em cada canal RGB separadamente.
+- Reconstrói a imagem filtrada.
+- Mede e mostra o tempo de execução.
+- Exibe o resultado em uma janela gráfica.
+
 ### Código feito com OpenCV
 ```
 import cv2
