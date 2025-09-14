@@ -77,6 +77,7 @@ plt.show()
 
 ```
 ### Código feito com OpenCV
+- O openCV é uma biblioteca que já faz todo o processo anterior de maneira otimizada e prática.
 ```
 import cv2
 import numpy as np
