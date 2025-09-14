@@ -107,6 +107,12 @@ plt.show()
 
 ## Detecção de Componentes
 
+Ambos os códigos, tanto para de 5 ou 7 frutas, são bem parecidos, eu usei a Matriz de Cruz como foi ensinado em aula, é melhor por que ele pega uma fração menor, para ter melhor precisão.
+
+Foi usado direto o Open e Close, passado as iterações para conseguir ter total precisão para conseguir identificar, ele deixa mais quadrado, mas é a melhor forma de conseguir precisão para ele identificar somente as frutas.
+
+Para fazer a parte da Box, Centroide e Label usei bem o que estava nos slides.
+
 ### 5 Frutas:
 
 ```
@@ -159,6 +165,8 @@ cv2.destroyAllWindows()
 
 ```
 ### 7 Frutas:
+
+Aqui é notável que tem bem mais iterações, mas é a única maneira de conseguir encontrar as frutas com muita diferença de cor.
 
 ```
 import cv2
